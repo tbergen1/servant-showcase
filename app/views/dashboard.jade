@@ -1,0 +1,16 @@
+xtends layouts/dashboard_layout
+
+block content
+	//- Dashboard Header
+	div(id="dashboard-header")
+		p.st-font.st-centered(id="logo", data-ui-sref="servants") 
+			a.st-link(data-ui-sref="servants") #{name}
+				
+	//- Dashboard Container
+	div(data-ui-view, id="dashboard-container", data-clientid="#{client_id}", data-environment="#{environment}", data-ng-hide="s.loading")
+	//- Loading Container
+	div(id="loading-container", data-ng-show="s.loading")
+		p.st-centered.st-font.st-animate-blink
+			i.fa.fa-spinner.fa-spin
+			| Loading...
+

@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Showcase</title>
+
+	<link rel="stylesheet" type="text/css" href="/css/showcase.css">
+
+</head>
+
+<body>
+	<!--<h1>Showcase</h1>-->
+
+	<div id="connect-view">
+		<h1>Showcase</h1>
+		<!--Servant Connect Button -->
+			<button id="servant-connect-button" onclick="Servant.connect()">Connect Servant</button>
+	</div>
+
+	<div id="content-view" style="display:none;">
+			<h2> You have connected your Servant!</h2>
+
+			<div id="content-show-area">
+
+				<!-- Servant Toggle -->
+				<p style="text-align:center;">
+					Select your servant:
+					<select id="servant-select"></select>
+				</p>
+			</div>
+
+					<!--<div class='swipe-wrap'>
+						
+					</div> -->
+
+					<!-- Display Products -->
+				  <!--  <div>
+						<img id="product-img0">
+						<p id="product-name0"></p>
+						<p id="product-price0"></p>
+						<p id="product-description0"></p>
+					</div>
+
+					<div>
+						<img id="product-img1">
+						<p id="product-name1"></p>
+						<p id="product-price1"></p>
+						<p id="product-description1"></p>
+					</div> -->
+					
+
+			<div id='slider' class='swipe'>
+  				<div class='swipe-wrap'>
+
+  				</div>			
+  			</div>
+
+			<div> 
+				<button id="prev-button" onclick="slider.prev()">Prev</button>
+				<button id="next-button" onclick="slider.next()">Next</button>
+			</div>
+					
+	</div>
+
+	
+	<!-- JQuery -->
+	<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js'></script>
+	<!-- Swipe -->
+	<script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/swipe/2.0/swipe.min.js'></script>
+	<!-- Servant SDK Source Files -->
+	<script type='text/javascript' src='https://d2d0226i04jal.cloudfront.net/sdk/1/servant.js'></script>
+	<!-- Application Javascript -->
+	<script type="text/javascript" src="/js/showcase.js"></script>
+</body>
+
+

@@ -1,0 +1,62 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 11px;
+    background: #e4e4e4;
+    color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    margin: 0px auto;
+    padding: 0px 10px 40px 10px;
+}
+p {
+    line-height: 18px;
+}
+ul {
+    list-style: none;
+    padding: 0px;
+}
+hr {
+    border-top: rgba(0, 0, 0, 0.1);
+}
+#servant-connect-button {
+    background: #e8544c;
+    color: #ffffff;
+    border: none;
+    padding: 15px 20px;
+    font-family: 'Lucida Grande', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    -webkit-font-smoothing: antialiased;
+    -webkit-box-shadow: 0px 3px 0px 0px #c4443d;
+    box-shadow: 0px 3px 0px 0px #c4443d;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+  }
+#servant-connect-button:hover {
+    cursor: pointer;
+    background: #ff6d65;
+    color: #ffffff;
+  }
+#servant-connect-button:active {
+    position: relative;
+    top: 2.5px;
+  }
+  
+.swipe {
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+}
+.swipe-wrap {
+  overflow: hidden;
+  position: relative;
+}
+.swipe-wrap > div {
+  float:left;
+  width:100%;
+  position: relative;
+}

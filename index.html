@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Showcase</title>
+
+	<link rel="stylesheet" type="text/css" href="showcase.css">
+</head>
+
+<body>
+	<h1>Showcase</h1>
+
+	<div id="connect-view">
+		<!--Servant Connect Button -->
+			<button id="servant-connect-button" onclick="Servant.connect()">Connect Servant</button>
+	</div>
+
+	<div id="content-view" style="display:none;">
+			<h2 id="welcome-user"></h2>
+			<p id="servants-info"></p>
+
+			<div id="content-create-area">
+
+				<!-- Servant Toggle -->
+				<p style="rext-align:center;">
+					Select your servant:
+					<select id="servant-select"></select>
+				</p>
+
+			</div>
+	</div>
+
+	
+	<!-- Servant SDK Source Files -->
+	<script type="text/javascript" src="bower_components/servant_sdk_javascript/src/servant_sdk_javascript.js"></script>
+	<!-- Application Javascript -->
+	<script type="text/javascript" src="showcase.js"></script>
+</body>
